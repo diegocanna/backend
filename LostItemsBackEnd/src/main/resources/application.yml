@@ -1,0 +1,11 @@
+server:
+  port: 9000 
+
+spring:
+  application:
+    name: LostItemsBackEnd
+  datasource:
+    url: jdbc:mysql://localhost:3306/lostitems
+    username: root
+    password: ""  
+    driver-class-name: com.mysql.cj.jdbc.Driver
